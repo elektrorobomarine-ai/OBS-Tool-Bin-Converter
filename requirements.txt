@@ -1,0 +1,12 @@
+# OBS Tools - Python dependencies
+#
+# Install:
+#   python -m pip install -r requirements.txt
+#
+# The same environment can be used to run the source tools
+# and to build the Windows executable.
+
+PySide6
+numpy
+obspy
+pyinstaller

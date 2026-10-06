@@ -1,0 +1,73 @@
+# ============================================================
+# OBS Tools - Git Ignore
+# ============================================================
+
+# Python cache / compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python tooling / test caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# PyInstaller build artifacts
+build/
+dist/
+*.spec
+
+# Build logs / temporary logs
+*.log
+build_error*.txt
+debug*.txt
+
+# Local temporary / backup files
+*.tmp
+*.temp
+*.bak
+*.old
+*.swp
+*~
+
+# Local archives / release packages
+*.zip
+*.7z
+*.rar
+
+# IDE / editor settings
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Windows crash / dump files
+*.dmp
+
+# Local test data / raw OBS recordings
+# Keep large or sensitive operational data out of the source repository.
+*.bin
+*.mseed
+*.miniseed
+
+# Generated CSV / JSON conversion outputs
+*_metadata.json
+*_ancillary.csv
+*_sensor.csv
+
+# Optional local output directories
+output/
+outputs/
+export/
+exports/
